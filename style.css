@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  padding-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #104f17;
+  box-shadow: 0 2.5px 5px #a9bf52;
+}
+
+#home {
+  padding: 45px;
+  background-color: #083316;
+  width: 100%;
+  min-height: 95vh;
+}
+
+#home .containers {
+  display: flex;
+  width: 100%;
+  min-height: 50vh;
+  position: relative;
+}
+
+#home .text_containers {
+  width: 70%;
+  padding-left: 0rem;
+  padding-top: 8rem;
+}
+
+#home .text_containers h2::first-line {
+  color: white;
+  letter-spacing: 5px;
+}
+
+#home .text_containers h2 {
+  color: white;
+  text-shadow: 0 5px 10px rgba(133, 253, 47, 0.5);
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+#home .text_containers h5 {
+  color: white;
+  text-shadow: 0 5px 10px rgba(133, 253, 47, 0.5);
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: left;
+  margin-top: 20px;
+  margin-right: 10vw;
+  text-transform: capitalize;
+}
+
+#home .text_containers h6 {
+  font-weight: 500;
+  color: white;
+  text-shadow: 0 5px 10px rgba(133, 253, 47, 0.5);
+}
+
+#home .text_containers p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  margin-top: 30px;
+}
+
+#home .text_containers a {
+  color: white;
+}
+
+.container .navbar-brand {
+  font-size: 1.5vw;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#navbarNav li a {
+  display: block;
+  color: white;
+  font-size: 1vw;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#navbarNav li:hover a {
+  color: #f2fb46;
+}
+
+.image_container {
+  display: flex;
+  width: 110%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.imgbox {
+  position: relative;
+  min-height: 20vh;
+  margin-right: 5vh;
+}
+.imgbox img {
+  height: 100%;
+  width: 100%;
+}
+
+#about {
+  background-color: #083316;
+  color: white;
+  font-size: fs-5;
+  display: flex;
+  width: 100%;
+  min-height: 95vh;
+  position: relative;
+  padding-top: 5rem;
+}
+
+#about .container h2 {
+  text-align: center;
+  color: white;
+  text-shadow: 0 5px 10px rgba(133, 253, 47, 0.5);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#about .container p {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  margin-top: 30px;
+  text-align: left;
+}
+
+#skill {
+  padding-top: 5rem;
+  margin-top: 30px;
+  background-color: #083316;
+  text-align: center;
+  width: 100%;
+  min-height: 85vh;
+}
+
+#skill h2 {
+  color: white;
+  text-shadow: 0 5px 10px rgba(133, 253, 47, 0.5);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#skill .row {
+  margin-top: 80px;
+}
+
+#skill .card {
+  background-color: #266b1c;
+  color: white;
+}
+
+#skill .card-title {
+  font-weight: 700;
+  color: white;
+}
+
+#skill .card-text {
+  color: white;
+}
+
+#project {
+  padding-top: 5rem;
+  margin-top: 15px;
+  background-color: #083316;
+  color: white;
+  text-align: center;
+  width: 100%;
+  min-height: 95vh;
+}
+
+#project h2 {
+  color: white;
+  text-shadow: 0 5px 10px rgba(133, 253, 47, 0.5);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#project p {
+  color: black;
+}
+
+#project .row {
+  margin-top: 30px;
+}
+
+#contact {
+  padding: 25px;
+  margin-top: 15px;
+  background-color: #083316;
+  color: white;
+}
+
+#contact h2 {
+  color: white;
+  text-shadow: 0 5px 10px rgba(133, 253, 47, 0.5);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #266b1c;
+  color: white;
+}
+
+.footer {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 0;
+  color: white;
+  background-color: #104f17;
+  box-shadow: 0 0px 5px #ffe600;
+  text-align: center;
+}
